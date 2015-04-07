@@ -1,0 +1,104 @@
+
+header {
+    background: url("https://unsplash.imgix.net/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?q=75&fm=jpg&s=d8cce13e5d977aeec5bdbec256987adf");
+    height: 470px;
+/*backgrund-position:center;*/
+  background-size:cover;
+  background-repeat:no-repeat;
+  /*how do I define the part of the image  i whant to center around?*/
+border-style: solid;
+border-color: #FF9900;
+border-width: 15px 0px 0px 0px;
+
+  /* must be a better way to define all borders at once*/
+}
+
+header p {
+  text-align: center;
+  vertical-align: center;
+  /*how to align verteclly?*/
+  /* why is text-align implimented in the heading and intro and not in the header?*/ 
+}
+
+.Im {
+  font-size: 2em;
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  font-family: "Gentium Book Basic", Georgia, serif;
+}
+.Jon {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;  font-  weight: bold;
+  font-size: 6em;
+  color: #FFFFCC;
+  text-shadow: 2px 3px #FF9900;
+  margin-top: 0px;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+  @media only screen and (max-width: 500px) {
+    header .Jon{
+      font-size: 2em;
+      margin-bottom: 5em;
+      /*magin and padding didnt push name to center*/
+    }
+    header {
+       height: 15em;
+    }
+}
+.content { 
+  font-family: "Calibri";
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.content h2{ 
+  font-size: 40px;  
+}
+.content p {
+  font-size: 20px;  
+}
+.content h3 {
+  color: #FF9900;
+}
+a {
+    text-decoration: none;
+    color: #FF9900;
+}
+a:hover {
+  opacity: 0.5;
+}
+a:visited {
+    color: #996600;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+footer {
+  background-color: #464646;
+  margin-top: 5em;
+  display: block;
+  /*why is it narrowed to the width of the colomn?*/
+  margin-left: auto;
+  margin-right: auto;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
+footer ul {
+  text-align: center;
+}
+@media only screen and (max-width: 500px) {
+    footer {
+      padding: 2em;
+    }
+
+}
+
